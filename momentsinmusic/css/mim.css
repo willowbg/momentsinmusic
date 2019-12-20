@@ -1,0 +1,514 @@
+body {
+	background-color: #001C55;
+}
+
+.container {
+	width: 1100px;
+	height: 800px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.quote_box {
+	width: 100%;
+	height: 100px;
+}
+
+.quote_box p {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: white;
+	font-size: 48px;
+}
+
+.quote {
+	position: absolute;
+	animation: quote_fadeout 3s;
+	animation-delay: 1s; 
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	left: 0px;
+	top: 50px; 
+}
+
+.guy {
+	animation: quote_fadeout 3s;
+	animation-delay: 1s; 
+	animation-fill-mode: forwards;
+	padding-top: 50px;
+	padding-left: 73%;
+	font-style: italic;
+	position: absolute;
+	top: 80px;
+	right: 0px;
+}
+
+@keyframes quote_fadeout {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+
+.title {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: white;
+	position: absolute;
+	animation: title_fadeIn 6.25s;
+	animation-fill-mode: forwards;
+	font-size: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 5%; 
+}
+
+.info {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: white;
+	position: absolute;
+	animation: title_fadeIn 6.25s;
+	animation-fill-mode: forwards;
+	font-size: 18px;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 15%; 
+}
+
+@keyframes title_fadeIn {
+	0% {opacity: 0;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.gif p {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.gif_container {
+	width: 1100px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translateX(-50%);
+}
+
+.gif {
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	float: left;
+	transform: translateX(-50%);
+	animation: gif_fadeIn 6.75s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes gif_fadeIn {
+	0% {opacity: 0;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%
+}
+
+.rock {
+	background-color: #FF805C;
+	left: 9%;
+	top: 10%;
+	transform: translateX(-50%);
+	animation: rock_fadeIn 6.75s;
+}
+
+	@keyframes rock_fadeIn {
+	0% {opacity: 0;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.pop {
+	background-color: #F66376;
+	left: 37%;
+	top: 10%;
+	transform: translateX(-50%);
+}
+
+.rap {
+	background-color: #C0DB42;
+	left: 64%;
+	top: 10%;
+	transform: translateX(-50%);
+}
+
+.edm {
+	background-color: #1B998B;;
+	left: 91%;
+	top: 10%;
+	transform: translateX(-50%);
+}
+
+/* Start Pages CSS */
+
+.left {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+}
+
+.margin {
+	width: 100%;
+	height: 0px;
+}
+
+.hamburger {
+	width: 75px;
+	height: 50px;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.pic {
+	margin-left: 75px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+}
+
+.more_container {
+	width: 600px;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+
+.more {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: white;
+	font-size: 18px;
+	margin-top: 25px;
+	overflow: hidden;
+}
+
+.br {
+	margin-top: 15px;
+}
+
+.artist {
+	font-size: 24px;
+	margin-top: 125px;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.influence {
+	font-size: 24px;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.rockdecade {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #FF805C;
+	font-size: 30px;
+	float: right;
+	transform: translateX(-60%) translateY(30%);
+	font-weight: 600;
+}
+
+.popdecade {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #F66376;
+	font-size: 30px;
+	float: right;
+	transform: translateX(-60%) translateY(30%);
+	font-weight: 600;
+}
+
+.rapdecade {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #C0DB42;
+	font-size: 30px;
+	float: right;
+	transform: translateX(-60%) translateY(30%);
+	font-weight: 600;
+}
+
+.edmdecade {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #1B998B;
+	font-size: 30px;
+	float: right;
+	transform: translateX(-60%) translateY(30%);
+	font-weight: 600;
+}
+
+/* NAV BUTTON */
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-family: 'Alegreya', serif;
+  line-height: 36px;
+  font-size: 25px;
+  text-align: left;
+  display: block;
+  transition: 0.3s;
+}
+
+.staff {
+	float: left;
+	transform: translateX(-10%) translateY(0%);
+}
+
+.sidepanel .edmside a {
+	color: gray;
+	cursor: pointer;
+	font-weight: 800;
+	font-style: italic;
+	display: inline;
+}
+
+.sidepanel .rapside a {
+	color: gray;
+	cursor: pointer;
+	font-weight: 800;
+	font-style: italic;
+	display: inline;
+	margin-left: 7px;
+}
+
+.sidepanel .popside a {
+	color: gray;
+	font-weight: 800;
+	font-style: italic;
+	display: inline; 
+	margin-left: 7px;
+}
+
+.sidepanel .rockside a {
+	color: gray;
+	cursor: pointer;
+	font-weight: 800;
+	font-style: italic;
+	display: inline;
+}
+
+.sidepanel .onrock a {
+	color: #FF805C;
+	cursor: pointer;
+	font-weight: 800;
+	display: inline;
+}
+
+.sidepanel .onpop a {
+	color: #F66376;
+	cursor: pointer;
+	font-weight: 800;
+	display: inline;
+	margin-left: 7px;
+}
+
+.sidepanel .onrap a {
+	color: #C0DB42;
+	cursor: pointer;
+	font-weight: 800;
+	display: inline;
+	margin-left: 7px;
+}
+
+.sidepanel .onedm a {
+	color: #1B998B;
+	cursor: pointer;
+	font-weight: 800;
+	display: inline;
+}
+/* When you mouse over the navigation links, change their color */
+
+.genre_container {
+	width: 250px;
+	height: 40px;
+	padding-top: 15px;
+}
+
+.lsidestaff {
+	display: inline;
+	float: left;
+	width: 20%;
+	height: 20%;
+	transform: translateX(25%) translateY(0%);
+}
+
+.rsidestaff {
+	float: right;
+	display: inline;
+	width: 20%;
+	height: 20%;
+	transform: translateX(-85%) translateY(0%);
+}
+
+.sidepanel .rockside a:hover {
+  color: #FF805C;
+  cursor: pointer;
+}
+
+.sidepanel .onrock a:hover {
+	color: gray;
+	cursor: pointer;
+}
+
+.sidepanel .popside a:hover {
+  color: #F66376;
+  cursor: pointer;
+}
+
+.sidepanel .onpop a:hover {
+	color: gray;
+	cursor: pointer;
+}
+
+.sidepanel .rapside a:hover {
+  color: #C0DB42;
+  cursor: pointer;
+}
+
+.sidepanel .onrap a:hover {
+	color: gray;
+	cursor: pointer;
+}
+
+.sidepanel .edmside a:hover {
+  color: #1B998B;
+  cursor: pointer;
+}
+
+.sidepanel .onedm a:hover {
+	color: gray;
+	cursor: pointer;
+}
+
+
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: -5px;
+  left: 185px;
+  font-size: 36px;
+  color: gray;
+}
+
+.sidepanel .closebtn:hover {
+	color: white;
+	cursor: pointer;
+}
+
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  height: 65px;
+  width: 75px;
+}
+
+.openbtn:hover {
+  background-color: #455983;
+  height: 65px;
+  width: 75px;
+}
+
+.rockgenre {
+  font-family: 'Alegreya', serif;
+  font-size: 32px;
+  color: #FF805C;
+  float: right;
+  transform: translateX(-875%) translateY(-130%);
+  font-weight: 600;
+}
+
+.popgenre {
+  font-family: 'Alegreya', serif;
+  font-size: 32px;
+  color: #F66376;
+  float: right;
+  transform: translateX(-1168%) translateY(-130%);
+  font-weight: 600;
+}
+
+.rapgenre {
+  font-family: 'Alegreya', serif;
+  font-size: 32px;
+  color: #C0DB42;
+  float: right;
+  transform: translateX(-1125%) translateY(-130%);
+  font-weight: 600;
+}
+
+.edmgenre {
+  font-family: 'Alegreya', serif;
+  font-size: 32px;
+  color: #1B998B;
+  float: right;
+  transform: translateX(-850%) translateY(-130%);
+  font-weight: 600;
+}
+
+
+/* h4 {
+	font-family: 'Alegreya', serif;
+	color: pink;
+}
+DEFAULT HAMBURGER
+	margin-left: 8px;
+	margin-top: -3px;
+
+ Orange: #FF805C; 
+   Pink: #F66376;
+   Green: #C0DB42;
+   Teal: #1B998B;
+   Blue: #001C55;
+
+   */
+
